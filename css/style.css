@@ -52,6 +52,7 @@ section{
   border-radius: 5px;
   color: gray;
   background-color:white;
+  border: 1px solid gray ;
 }
 .taskdate{
   margin-top: 25px;
