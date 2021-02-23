@@ -5,17 +5,20 @@
 header{
   height: 75px;
   background-color:white;
+  line-height: 70px;
 }
 body{
   background-color:#F6F8F9;
 }
-.logo{
-  vertical-align:sub;
+img{
+  display: inline-block;
+  vertical-align:middle;
 }
 
 
 header h1{
   display: inline-block;
+  vertical-align: middle;
 }
 main{
   width: 70%;
