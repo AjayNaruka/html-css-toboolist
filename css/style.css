@@ -84,7 +84,12 @@ section{
   border: 2px solid blue;
   border-radius: 50%;
 }
-.wrapicon{
+
+.activity{
+  margin-top: 20px; /*Per distanziare le singole attività l'una dall'altra */
+}
+
+.wrapicon{                       /* blocco tipi task senza colori*/
   display: inline-block;
   font-size: small;
   padding: 5px 10px;
@@ -117,7 +122,4 @@ section{
 }
 .tasks p{
   display: inline-block;
-}
-.activity{
-  margin-top: 20px; /*Per distanziare le singole attività l'una dall'altra */
 }
