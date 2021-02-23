@@ -84,40 +84,35 @@ section{
   border: 2px solid blue;
   border-radius: 50%;
 }
-.editorial{
+.wrapicon{
   display: inline-block;
   font-size: small;
   padding: 5px 10px;
   border-radius: 12px;
+}
+.editorial{
+  all:inherit;
   background-color:#47ADF1 ;
 }
+.goals{
+  all:inherit;
+  background-color:#9C72E4 ;
+}
 .recruiting{
-  display: inline-block;
-  font-size: small;
-  padding: 5px 10px;
-  border-radius: 12px;
+  all: inherit;
   background-color:#64C0A9 ;
 }
 
 .mobile{
-  display: inline-block;
-  font-size: small;
-  padding: 5px 10px;
-  border-radius: 12px;
+  all: inherit;
   background-color:#F29E33 ;
 }
 .website{
-  display: inline-block;
-  font-size: small;
-  padding: 5px 10px;
-  border-radius: 12px;
+  all: inherit;
   background-color:#D863A1 ;
 }
 .sales{
-  display: inline-block;
-  font-size: small;
-  padding: 5px 10px;
-  border-radius: 12px;
+  all: inherit;
   background-color:#B0C926 ;
 }
 .tasks p{
@@ -125,11 +120,4 @@ section{
 }
 .activity{
   margin-top: 20px; /*Per distanziare le singole attività l'una dall'altra */
-}
-.goals{
-  display: inline-block;
-  font-size: small;
-  padding: 5px 10px;
-  border-radius: 12px;
-  background-color:#9C72E4 ;
 }
